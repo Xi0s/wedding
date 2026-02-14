@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Typography Component Styles
+   ========================================================================== */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif-heading);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 3rem;
+  letter-spacing: -0.01em;
+  color: var(--color-accent-dark);
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--color-accent-dark);
+  margin-top: var(--spacing-xl);
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent);
+}
+
+/* Paragraph & Body Text */
+p {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links */
+a {
+  color: var(--color-accent-dark);
+  text-decoration: none;
+  transition: color var(--transition-normal);
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+/* Emphasis */
+strong, b {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* Small Text */
+small {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Utility Text Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.text-accent-dark {
+  color: var(--color-accent-dark);
+}
+
+.text-muted {
+  color: var(--color-text-secondary);
+}
+
+.text-serif-heading {
+  font-family: var(--font-serif-heading);
+}

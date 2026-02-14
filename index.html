@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join us as Bryony and Callum celebrate their wedding at Elm Lodge, Cumbria">
+  <title>Bryony & Callum - Wedding</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<!-- Header with background image -->
+<header class="header" style="background-image: url('assets/images/DiningRoom.png');">
+  <div class="header__decoration header__decoration--top-left">✤</div>
+  <div class="header__decoration header__decoration--top-right">✤</div>
+  <div class="header__decoration header__decoration--bottom-left">❀</div>
+  <div class="header__decoration header__decoration--bottom-right">❀</div>
+
+  <div class="header__content">
+    <div class="header__names">
+      <h1 class="header__name header__name--first">Bryony</h1>
+      <div class="header__ampersand">&</div>
+      <h1 class="header__name header__name--second">Callum</h1>
+    </div>
+    <div class="header__divider"></div>
+    <p class="header__date">June 24-28, 2026 • Elm Lodge, Cumbria</p>
+  </div>
+</header>
+
+<!-- Countdown Section -->
+<section class="countdown">
+  <div class="countdown__container">
+    <h2 class="countdown__title">Until We Say "I Do"</h2>
+    <div class="countdown__grid">
+      <div class="countdown__item">
+        <span class="countdown__value" data-countdown="days">313</span>
+        <span class="countdown__label">Days</span>
+      </div>
+      <div class="countdown__item">
+        <span class="countdown__value" data-countdown="hours">16</span>
+        <span class="countdown__label">Hours</span>
+      </div>
+      <div class="countdown__item">
+        <span class="countdown__value" data-countdown="minutes">33</span>
+        <span class="countdown__label">Minutes</span>
+      </div>
+      <div class="countdown__item">
+        <span class="countdown__value" data-countdown="seconds">04</span>
+        <span class="countdown__label">Seconds</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Selection Section -->
+<section class="section">
+  <div class="section__container">
+    <h2 class="section__title">Select Your Invitation</h2>
+    <div class="section__divider"></div>
+
+    <div class="section__content">
+      <p style="text-align: center; margin-bottom: var(--spacing-xl); color: var(--color-text-secondary);">Please select your category to view your personalized event information.</p>
+
+      <div class="selection-grid">
+        <!-- Family Options -->
+        <div class="selection-category">
+          <h3 class="selection-category__title">Family</h3>
+          <p class="selection-category__description">June 24-26, 2026</p>
+
+          <div class="selection-options">
+            <a href="family_provided.html" class="selection-card">
+              <h4 class="selection-card__title">Accommodation Provided</h4>
+              <p class="selection-card__description">Stay at Elm Lodge</p>
+            </a>
+          </div>
+        </div>
+
+        <!-- Friends Options -->
+        <div class="selection-category">
+          <h3 class="selection-category__title">Friends</h3>
+          <p class="selection-category__description">June 26-28, 2026</p>
+
+          <div class="selection-options">
+            <a href="friends_provided.html" class="selection-card">
+              <h4 class="selection-card__title">Accommodation Provided</h4>
+              <p class="selection-card__description">Stay at Elm Lodge</p>
+            </a>
+
+            <a href="friends_self_hosted.html" class="selection-card">
+              <h4 class="selection-card__title">Self-Hosted</h4>
+              <p class="selection-card__description">Arrange your own</p>
+            </a>
+          </div>
+        </div>
+
+        <!-- Both Options -->
+        <div class="selection-category">
+          <h3 class="selection-category__title">Attending Both</h3>
+          <p class="selection-category__description">June 24-28, 2026</p>
+
+          <div class="selection-options">
+            <a href="both_provided.html" class="selection-card">
+              <h4 class="selection-card__title">Accommodation Provided</h4>
+              <p class="selection-card__description">Stay at Elm Lodge</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__divider"></div>
+  <p class="footer__text">Bryony & Callum • Elm Lodge, Cumbria • June 2026</p>
+</footer>
+
+<!-- Countdown Timer Script -->
+<script src="js/countdown.js"></script>
+
+<!-- Scroll Animation Script -->
+<script src="js/scroll-animations.js"></script>
+
+</body>
+</html>

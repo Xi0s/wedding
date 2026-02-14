@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Base Styles & Variables
+   ========================================================================== */
+
+:root {
+  /* Color Variables */
+  --color-primary: #f5f5f5;
+  --color-secondary: #ffffff;
+  --color-accent: #d4a5a5;
+  --color-accent-dark: #b8858f;
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-border: #e0e0e0;
+
+  /* Font Variables */
+  --font-serif: "Lora", serif;
+  --font-serif-heading: "Tangerine", cursive;
+
+  /* Spacing Variables */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Transition Variables */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+
+  /* Z-index Variables */
+  --z-base: 1;
+  --z-elevated: 10;
+  --z-modal: 100;
+}
+
+/* Reset & Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--color-text-primary);
+  background-color: var(--color-secondary);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: var(--font-serif);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Text Selection */
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-secondary);
+}
+
+::-moz-selection {
+  background-color: var(--color-accent);
+  color: var(--color-secondary);
+}
